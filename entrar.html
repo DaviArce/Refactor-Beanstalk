@@ -4,6 +4,7 @@
     <title>Entrar</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap"
@@ -23,43 +24,29 @@
       </nav>
     </header>
     <main>
-      <div class="emailArea">
-        <label for="exampleInputEmail1">Email address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Enter email"
-          name="email"
-        />
-        <small id="emailHelp" class="form-text text-muted"
-          >We'll never share your email with anyone else.</small
-        >
-      </div>
-      <div class="passwordArea">
-        <label for="exampleInputPassword1">Password</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-          placeholder="Password"
-          name="senha"
-        />
-      </div>
-      <div class="form-group form-check">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          id="exampleCheck1"
-          name="conectado"
-        />
-        <label class="form-check-label" for="exampleCheck1"
-          >Mantenha-me conectado</label
-        >
-      </div>
-      <button type="submit">Entrar</button>
-      <a href="cadastrar.php"> Registre-se aqui </a>
+      <section>
+        <h1 class="labelLogin"><b> Faça Login </b></h1>
+        <div class="txtEmailArea">
+          <label for="textEmail"> Email </label>
+          <input type="email" name="textEmail" id="textEmail" />
+        </div>
+        <div class="txtPasswordArea">
+          <label for="textPassword"> Senha </label>
+          <input type="password" name="textPassword" id="textPassword" />
+        </div>
+        <div class="keepConectedArea">
+          <input type="checkbox" name="chkKeepConected" />
+          <label for="chkKeepConected">Mantenha-me conectado</label>
+        </div>
+        <div class="confirmArea">
+          <button>Entrar</button>
+          <a href="#">Esqueceu a senha ?</a>
+          <br />
+        </div>
+        <div class="signIn">
+          <a href="#" class="linkSignIn"><b>Cadastre-se aqui</b></a>
+        </div>
+      </section>
     </main>
     <div id="newsletter">
       <div class="text">
