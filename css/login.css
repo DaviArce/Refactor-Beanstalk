@@ -1,67 +1,119 @@
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.labelLogin{
-    font-size: 36px;
+#mainLogin{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
 }
-.txtEmailArea{
-    display: flex;
-    flex-direction: column;
-    margin-top: 16px;
+#articleLogin {
+  border: 1px solid black;
+  margin: 48px;
+  padding-left: 32px;
+  width: 393px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
 }
-.txtEmailArea label{
-    margin-bottom: 8px;
-    font-size: 18px;
-    font-weight: 400;
+.labelLogin {
+  font-size: 36px;
 }
-.txtEmailArea input{
-    height: 25px;
-    width: 355px;
-    border: 1px solid black;
-    border-radius: 5px;
+.txtEmailArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
 }
-.txtPasswordArea{
-    display: flex;
-    flex-direction: column;
-    margin-top: 24px;
+.txtEmailArea label {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 400;
 }
-.txtPasswordArea label{
-    margin-bottom: 8px;
-    font-size: 18px;
-    font-weight: 400;
+.txtEmailArea input {
+  height: 25px;
+  width: 355px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
-.txtPasswordArea input{
-    height: 25px;
-    width: 355px;
-    border: 1px solid black;
-    border-radius: 5px;
+.txtPasswordArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
 }
-.keepConectedArea{
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
+.txtPasswordArea label {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 400;
 }
-.confirmArea{
-    margin-top: 24px;
-    margin-bottom: 24px;
+.txtPasswordArea input {
+  height: 25px;
+  width: 355px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.keepConectedArea {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+}
+.keepConectedArea label {
+  margin-left: 5px;
+  color: black;
+  margin-top: 3px;
+}
+.keepConectedArea input {
+  width: 20px;
+  height: 20px;
+}
+.confirmArea {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
-.confirmArea input{
-    width: 20px;
-    height: 20px;
-    margin-right: 16px;
+.confirmArea input {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
 }
-.confirmArea button{
-    width: 150px;
-    height: 40px;
-    margin-right: 18px;
-    box-sizing: border-box;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    box-shadow:4px 4px 4px rgba(0, 0, 0, 0.25);
+.confirmArea button {
+  width: 150px;
+  height: 40px;
+  margin-right: 18px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.signIn{
-    margin-top: 16px;
-    margin-bottom: 16px;
+.confirmArea button:hover {
+  background-color: #cf8c27;
+  color: white;
+  cursor: pointer;
 }
-
+.confirmArea a {
+  color: #cf8c27;
+}
+.confirmArea a:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.signIn {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.signIn a:hover {
+    color:#cf8c27;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 48px;
+    width: 100%;
+}
+aside img{
+    margin-top: -30px;
+    width: 500px;
+    height: 500px;
+}
