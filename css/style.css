@@ -1,6 +1,7 @@
 /* ------------------------------------------ Global styles ------------------------------------------------ */
 * {
   font-family: "Inter", sans-serif;
+ 
 }
 a{
   text-decoration: none;
@@ -17,11 +18,19 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-start;
+  
+}
+#head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: #cf8c27;
   height: 226px;
   width: 100%;
+  
 }
 #logoArea{
   display: flex;
@@ -36,8 +45,15 @@ header {
 #logoText{
   font-size: 48px;
   font-weight: 700;
-  color: black;
+  color: white;
   margin-left: 48px;
+}
+.cartArea{
+  margin-right: 82px;
+}
+.cartArea img{
+  width: 42px;
+  height: 42px;
 }
 nav {
   display: flex;
@@ -63,6 +79,7 @@ nav ul li {
 nav ul li a:hover {
   color: #cf8c27;
   text-decoration: none;
+  border-bottom: 1px solid red;
   cursor: pointer;
 }
 nav ul li a:link{
