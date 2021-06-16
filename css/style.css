@@ -1,9 +1,8 @@
 /* ------------------------------------------ Global styles ------------------------------------------------ */
 * {
   font-family: "Inter", sans-serif;
- 
 }
-a{
+a {
   text-decoration: none;
 }
 body {
@@ -20,9 +19,8 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  
 }
-#head{
+#head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,30 +28,32 @@ header {
   background-color: #cf8c27;
   height: 226px;
   width: 100%;
-  
 }
-#logoArea{
+#logoArea {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
-.logo{
+.logo {
   width: 80px;
   height: 80px;
   border: 1px solid black;
 }
-#logoText{
+#logoText {
   font-size: 48px;
   font-weight: 700;
   color: white;
   margin-left: 48px;
 }
-.cartArea{
+.cartArea {
   margin-right: 82px;
 }
-.cartArea img{
-  width: 42px;
-  height: 42px;
+.cartArea i {
+  font-size: 42px;
+  color: white;
+}
+.cartArea i:hover {
+  color: black;
 }
 nav {
   display: flex;
@@ -76,33 +76,35 @@ nav ul li {
   padding: 8px;
   text-transform: capitalize;
 }
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
 nav ul li a:hover {
   color: #cf8c27;
   text-decoration: none;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #cf8c27;
   cursor: pointer;
 }
-nav ul li a:link{
-  color: white;
-  text-decoration: none;
-}
-
-nav ul li a:visited{
-  color: white;
-  text-decoration: none;
-}
-#socialIcons{
+#socialIcons {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 32px;
 }
-#socialIcons img{
-  height: 28px;
-  width: 28px;
-  margin: 8px;
+#socialIcons a {
+  font-size: 28px;
+  text-decoration: none;
+  margin: 12px;
 }
-
+#socialIcons a i {
+  color: white;
+  text-decoration: none;
+}
+#socialIcons a i:hover {
+  color: gray;
+  text-decoration: dashed;
+}
 
 /* ----------------------------------------------- scope --------------------------------------------------- */
 main {
@@ -111,7 +113,7 @@ main {
   flex: 1;
   width: 100%;
 }
-#banner{
+#banner {
   height: 225px;
   margin-left: 48px;
   margin-right: 48px;
