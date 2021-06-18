@@ -3,7 +3,7 @@
   font-family: "Inter", sans-serif;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 body {
   display: flex;
@@ -43,6 +43,12 @@ header {
   font-size: 48px;
   font-weight: 700;
   color: white;
+  margin-left: 48px;
+}
+#logoText:hover {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
   margin-left: 48px;
 }
 .cartArea {
